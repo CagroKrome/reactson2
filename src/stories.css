@@ -1,0 +1,27 @@
+.story-container{
+    height: 150px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 0px 20px;
+}
+
+.story img {
+    width: 75px;
+    border-radius: 100%;
+}
+
+.story{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.story:hover{
+    transform: scale(1.1);
+    transition: 0.1s ease .05s;
+}
